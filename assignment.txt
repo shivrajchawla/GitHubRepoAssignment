@@ -1,0 +1,74 @@
+C:\Users\shivr\Desktop\CodingDojo\gittest>cd ..
+
+C:\Users\shivr\Desktop\CodingDojo>md githubrepoassignment
+
+C:\Users\shivr\Desktop\CodingDojo>cd githubrepoassignment
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git init
+Initialized empty Git repository in C:/Users/shivr/Desktop/CodingDojo/githubrepoassignment/.git/
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>copy NUL readme.md
+        1 file(s) copied.
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git add readme.md
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   readme.md
+
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   readme.md
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   readme.md
+
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git commit -m readme.md
+[master (root-commit) 46e3d01] readme.md
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git push master
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream master master
+
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git remote add origin https://github.com/shivrajchawla/GitHubRepoAssignment.git
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>git push origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 235 bytes | 235.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/shivrajchawla/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>copy NUL assignment.txt
+        1 file(s) copied.
+
+C:\Users\shivr\Desktop\CodingDojo\githubrepoassignment>
